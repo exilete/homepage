@@ -16,7 +16,6 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% auto;
-  /* background-size: cover; */
 }
 
 .content {
@@ -42,10 +41,11 @@ html {
 }
 
 .channels {
-  flex-direction: column;
+  flex-direction: row;
   text-align: right;
   display: flex;
-  margin-right: -2%;
+  justify-content: space-between;
+  margin-left: 50%
 }
 
 .content-youtube,
