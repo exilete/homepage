@@ -5,7 +5,7 @@ var verbs = ["Abdicate", "Adjudicate", "Alienate", "Amplify", "Ascend", "Assimil
 "Eliminate", "Emancipate", "Empower", "Eradicate", "Evade", "Eviscerate", "Evolve", "Exile", "Exterminate",
 "Hallucinate",  
 "Illuminate", "Initiate", "Instigate", "Invigorate", 
-"Liberate",  
+"Lacerate", "Liberate",  
 "Maim", "Manipulate", 
 "Obliterate", "Oppress", "Orchestrate",
 "Pray", "Protect", "Putrefy",  
