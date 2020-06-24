@@ -19,11 +19,11 @@ img {
   background-image: url('./cat.png');
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 100% auto;
 }
 
 .content {
   display: flex;
-  background-size: 100% auto;
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
