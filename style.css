@@ -2,6 +2,7 @@
 
 body,
 html {
+  background-color: #c6c6c6;
   font-family: roboto;
   font-style: normal;
   font-weight: 400;
@@ -15,7 +16,6 @@ img {
 
 .bg {
   height: 100%;
-  background-color: #c6c6c6;
   background-image: url('./cat.png');
   background-position: center;
   background-repeat: no-repeat;

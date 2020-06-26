@@ -23,8 +23,12 @@ $(".content-title").html(
 
 
 $("document").ready(function() {
+	$(".bg").removeClass("hidden");
+	$(".bg").hide().fadeIn(3000);
+	setTimeout(function() {
 	$(".content-title").removeClass("hidden");
 	$(".content").hide().fadeIn(3000);
+	}, 500);
 	setTimeout(function() {
 	$(".content-youtube").removeClass("hidden");
 	$(".content-youtube").hide().fadeIn(3000);
