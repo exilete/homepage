@@ -5,13 +5,13 @@ var verbs = ["Abdicate", "Adjudicate", "Alienate", "Amplify", "Ascend", "Assimil
 "Cripple", 
 "Decompose", "Demolish", "Desecrate", "Disintegrate", "Disobey", 
 "Eliminate", "Emancipate", "Empower", "Eradicate", "Evade", "Eviscerate", "Evolve", "Exile", "Exterminate",
-"Hallucinate",  
+"Hallucinate", "Howl",  
 "Illuminate", "Initiate", "Instigate", "Invigorate", 
 "Lacerate", "Liberate",  
 "Maim", "Manipulate", 
 "Obliterate", "Oppress", "Orchestrate",
 "Pray", "Protect", "Putrefy",  
-"Redefine", "Renounce", "Radiate", "Retaliate", 
+"Redefine", "Renounce", "Radiate", "Resonate", "Retaliate", "Reverberate", 
 "Self-destruct", "Shimmer", 
 "Terminate", "Transgress", 
 "Violate", 
@@ -42,13 +42,17 @@ $("document").ready(function() {
 	$(".content-reddit").hide().fadeIn(3000);
 	}, 2000);
 	setTimeout(function() {
+	$(".content-chan").removeClass("hidden");
+	$(".content-chan").hide().fadeIn(3000);
+	}, 2500);
+	setTimeout(function() {
 	$(".content-mega").removeClass("hidden");
 	$(".content-mega").hide().fadeIn(3000);
-	}, 2500);
+	}, 3000);
 	setTimeout(function() {
 	$(".content-github").removeClass("hidden");
 	$(".content-github").hide().fadeIn(3000);
-	}, 3000);
+	}, 3500);
 });
 
 /*
