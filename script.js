@@ -1,18 +1,18 @@
 "use strict";
 
-var verbs = ["Abdicate", "Adjudicate", "Alienate", "Amplify", "Ascend", "Assimilate", "Avert", 
+var verbs = ["Abdicate", "Adjudicate", "Alienate", "Amplify", "Arise", "Ascend", "Assimilate", "Avert", "Awaken", 
 "Bleed", 
-"Cripple", 
-"Decompose", "Demolish", "Desecrate", "Disintegrate", "Disobey", 
-"Eliminate", "Emancipate", "Empower", "Eradicate", "Evade", "Eviscerate", "Evolve", "Exile", "Exterminate",
+"Cripple", "Cruficy", 
+"Decompose", "Defy", "Delete", "Demolish", "Desecrate", "Deviate", "Disintegrate", "Disobey", "Divide",
+"Eliminate", "Emancipate", "Empower", "Eradicate", "Erase", "Evade", "Eviscerate", "Evolve", "Exile", "Exterminate",
 "Hallucinate", "Howl",  
 "Illuminate", "Initiate", "Instigate", "Invigorate", 
 "Lacerate", "Liberate",  
 "Maim", "Manipulate", 
 "Obliterate", "Oppress", "Orchestrate",
-"Pray", "Protect", "Putrefy",  
-"Redefine", "Renounce", "Radiate", "Resonate", "Retaliate", "Reverberate", 
-"Self-destruct", "Shimmer", 
+"Pray", "Protect", "Pulverise", "Putrefy",  
+"Radiate", "Reap", "Redefine", "Rejuvenate", "Relinquish", "Renounce", "Resonate", "Retaliate", "Reverberate", 
+"Self-destruct", "Sever", "Shatter", "Shimmer", "Sunder",
 "Terminate", "Transgress", 
 "Violate", 
 "Worship"];
@@ -53,6 +53,11 @@ $("document").ready(function() {
 	$(".content-github").removeClass("hidden");
 	$(".content-github").hide().fadeIn(3000);
 	}, 3500);
+	setTimeout(function() {
+	$(".content-duolingo").removeClass("hidden");
+	$(".content-duolingo").hide().fadeIn(3000);
+	}, 4000);
+
 });
 
 /*
