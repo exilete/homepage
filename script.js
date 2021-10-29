@@ -53,6 +53,11 @@ $("document").ready(function() {
 	$(".content-github").removeClass("hidden");
 	$(".content-github").hide().fadeIn(3000);
 	}, 3500);
+	setTimeout(function() {
+	$(".content-duolingo").removeClass("hidden");
+	$(".content-duolingo").hide().fadeIn(3000);
+	}, 4000);
+
 });
 
 /*
