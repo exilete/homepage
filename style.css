@@ -52,13 +52,7 @@ img {
   margin-left: 50%
 }
 
-.content-youtube,
-.content-spotify,
-.content-reddit,
-.content-chan,
-.content-mega,
-.content-github,
-.content-duolingo {
+.icon {
   font-size: 15px;
   letter-spacing: 3pt;
   height: 30px;

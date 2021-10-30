@@ -17,10 +17,34 @@ var verbs = ["Abdicate", "Adjudicate", "Alienate", "Amplify", "Arise", "Ascend",
 "Violate", 
 "Worship"];
 
+var icons = [".content-youtube", ".content-spotify", ".content-reddit", ".content-chan", ".content-mega", ".content-github", ".content-duolingo"];
+
 $(".content-title").html( 
 		verbs[Math.floor(Math.random() * verbs.length)] + " &#11832 DEMONOLOGY");
 		
 
+$("document").ready(function() {
+	$(".bg").removeClass("hidden");
+	$(".bg").hide().fadeIn(3000);
+	setTimeout(function() {
+		$(".content-title").removeClass("hidden");
+		$(".content").hide().fadeIn(3000);
+		}, 500);
+});
+
+for (var iconCount = 0; iconCount < icons.length; iconCount++) {
+	delay(iconCount);	
+}
+
+function delay(iconCount) {
+	setTimeout(function() {
+	$(icons[iconCount]).removeClass("hidden");
+	$(icons[iconCount]).hide().fadeIn(3000);
+	}, 1000 + (500 * iconCount));
+}
+		
+
+/* OLD SCRIPT
 
 $("document").ready(function() {
 	$(".bg").removeClass("hidden");
@@ -58,40 +82,6 @@ $("document").ready(function() {
 	$(".content-duolingo").hide().fadeIn(3000);
 	}, 4000);
 
-});
-
-/*
-
-$("document").ready(function() {
-	$(".content-title").removeClass("hidden");
-	$(".content").hide().fadeIn(3000);
-	iconFade();	
-});
-
-
-function iconFade() {
-	var timeIn = 1000;
-	for (var i=0; i<$(".channels span").length; i++) {
-		$(".channels span")[i].removeClass("hidden");
-		$(".channels span")[i].hide().fadeIn(3000).delay("timeIn");
-		timeIn += 500;
-	}
-}
-
-
-$("document").ready(function() {
-	$(".content-title").removeClass("hidden");
-	$(".content").hide().fadeIn(3000);
-	$(".content-youtube").removeClass("hidden");
-	$(".content-youtube").hide().fadeIn(3000).delay(1000);
-	$(".content-spotify").removeClass("hidden");
-	$(".content-spotify").hide().fadeIn(3000).delay(1500);
-	$(".content-reddit").removeClass("hidden");
-	$(".content-reddit").hide().fadeIn(3000).delay(2000);
-	$(".content-mega").removeClass("hidden");
-	$(".content-mega").hide().fadeIn(3000).delay(2500);
-	$(".content-github").removeClass("hidden");
-	$(".content-github").hide().fadeIn(3000).delay(3000);
 });
 
 */
