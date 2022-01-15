@@ -22,7 +22,7 @@ $(".content-title").html(
 
 //------------------------------------------------------------------------------------------------
 // SCRIPT V3
-
+/*
 $("document").ready(function() {
 	$(".bg").removeClass("hidden");
 	$(".bg").hide().fadeIn(3000);
@@ -52,9 +52,9 @@ function delay(iconCount) {
 	$(allIcons[iconCount]).hide().fadeIn(3000);
 	}, 1000 + (500 * iconCount));
 }
-
+*/
 //------------------------------------------------------------------------------------------------
-/* SCRIPT V2
+// SCRIPT V2
 
 var icons = [".content-youtube", ".content-spotify", ".content-reddit", ".content-chan", ".content-mega", ".content-github", ".content-duolingo"];
 
@@ -78,7 +78,7 @@ function delay(iconCount) {
 	}, 1000 + (500 * iconCount));
 }
 
-*/
+
 		
 //------------------------------------------------------------------------------------------------
 /* SCRIPT V1
