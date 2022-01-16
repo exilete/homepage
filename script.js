@@ -3,7 +3,7 @@
 var verbs = ["Abdicate", "Adjudicate", "Alienate", "Amplify", "Arise", "Ascend", "Assimilate", "Avert", "Awaken", 
 "Bleed", 
 "Cripple", "Cruficy", 
-"Decompose", "Defy", "Delete", "Demolish", "Desecrate", "Deviate", "Disintegrate", "Disobey", "Divide", "Drippy", "Droolly", "Droppie"
+"Decompose", "Defy", "Delete", "Demolish", "Desecrate", "Deviate", "Disintegrate", "Disobey", "Divide", "Drippy", "Droolly", "Droppie",
 "Eliminate", "Emancipate", "Empower", "Eradicate", "Erase", "Evade", "Eviscerate", "Evolve", "Exile", "Exterminate",
 "Hallucinate", "Howl",  
 "Illuminate", "Initiate", "Instigate", "Invigorate", 
