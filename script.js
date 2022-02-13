@@ -56,7 +56,7 @@ function delay(iconCount) {
 //------------------------------------------------------------------------------------------------
 // SCRIPT V2
 
-var icons = [".content-youtube", ".content-spotify", ".content-reddit", ".content-chan", ".content-mega", ".content-github", ".content-duolingo"];
+var icons = [".content-youtube", ".content-spotify", ".content-reddit", ".content-chan", ".content-mega", ".content-github", ".content-duolingo", ".content-grailed"];
 
 $("document").ready(function() {
 	$(".bg").removeClass("hidden");
