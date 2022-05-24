@@ -2,20 +2,21 @@
 
 var verbs = ["Abdicate", "Adjudicate", "Alienate", "Amplify", "Arise", "Ascend", "Assimilate", "Avert", "Awaken", 
 "Bleed", 
-"Cripple", "Cruficy", 
-"Decompose", "Defy", "Delete", "Demolish", "Desecrate", "Deviate", "Disintegrate", "Disobey", "Divide", "Drippy", "Droolly", "Droppie",
-"Eliminate", "Emancipate", "Empower", "Eradicate", "Erase", "Evade", "Eviscerate", "Evolve", "Exile", "Exterminate",
+"Constrict", "Cripple", "Cruficy", 
+"Decompose", "Defy", "Delete", "Demolish", "Desecrate", "Destroy", "Deviate", "Disintegrate", "Disobey", "Divide",
+"Eliminate", "Emancipate", "Empower", "Eradicate", "Erase", "Evade", "Eviscerate", "Evolve", "Exile", "Exterminate", "Extinguish",
+"Farewell",
 "Hallucinate", "Howl",  
-"Illuminate", "Initiate", "Instigate", "Invigorate", 
+"Illuminate", "Initiate", "Instigate", "Intimidate", "Invigorate", 
 "Lacerate", "Liberate",  
-"Maim","Mango", "Manipulate", 
-"Obliterate", "Oppress", "Orchestrate",
+"Maim", "Manipulate", 
+"Obfuscate", "Obliterate", "Oppress", "Orchestrate",
 "Pray", "Protect", "Pulverise", "Putrefy",  
-"Radiate", "Reap", "Redefine", "Rejuvenate", "Relinquish", "Renounce", "Resonate", "Retaliate", "Reverberate", 
-"Self-destruct", "Sever", "Shatter", "Shimmer", "Sunder",
-"Terminate", "Transgress", 
-"Violate", 
-"Wei Ying", "Worship"];
+"Radiate", "Reap", "Rebuild", "Redefine", "Rejuvenate", "Relinquish", "Renounce", "Repel", "Resonate", "Restrict", "Retaliate", "Reverberate", 
+"Self-destruct", "Sever", "Shatter", "Shimmer", "Strengthen", "Sunder",
+"Tarnish", "Terminate", "Transgress", 
+"Violate", "Vindicate", 
+"Worship"];
 
 $(".content-title").html( 
 		verbs[Math.floor(Math.random() * verbs.length)] + " &#11832 DEMONOLOGY");
